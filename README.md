@@ -1,11 +1,10 @@
-# Data Science Salary Estimator: Project Overview 
+# Data Science Salary Prediction: Project Overview 
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
 * Scraped over 1000 job descriptions from Glassdoor using python and an open source Selenium model
 * Engineered features from the text of each job description to quantify the value companies put on Python, Excel, AWS, and Spark. 
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
 
 ## Code and Resources Used 
-**Python Version:** 3.7  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium 
 **Opensource Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
 **Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
@@ -58,7 +57,7 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 I tried three different models:
 *	**Multiple Linear Regression** – Baseline for the model
 *	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
-*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
