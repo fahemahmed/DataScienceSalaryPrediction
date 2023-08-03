@@ -1,8 +1,9 @@
 # Data Science Salary Prediction: Project Overview 
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
-* Scraped over 1000 job descriptions from Glassdoor using python and an open source Selenium model
-* Engineered features from the text of each job description to quantify the value companies put on Python, Excel, AWS, and Spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
+* Developed a data science salary estimation tool with a remarkable Mean Absolute Error (MAE) of approximately $11K, empowering data scientists to negotiate their income confidently during job offers.
+* Leveraged Python and an open-source Selenium scraper to efficiently scrape and analyze over 1000 job descriptions from Glassdoor, gaining valuable insights into the job market.
+* Conducted rigorous data cleaning and exploratory data analysis (EDA) to ensure the accuracy and reliability of the gathered data.
+* Engineered innovative features from the textual content of each job description, effectively quantifying the importance companies placed on various attributes.
+* Employed advanced techniques such as GridsearchCV to optimize Linear, Lasso, and Random Forest Regressors, culminating in the identification of the best-performing model for the task at hand.
 
 ## Code and Resources Used 
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium 
